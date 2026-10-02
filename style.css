@@ -1,0 +1,127 @@
+.container{
+    width: 240px;
+    min-height: 484px;
+    padding: 14px;
+    background-color: #201520;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #FFFFFF;
+    
+}
+
+h1{
+    font-family: 'Rosarivo', sans-serif;
+    font-size: 14.31px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0 4px;
+    align-items: center;
+}
+h3{
+    font-family: 'Rosarivo', sans-serif;
+    font-size: 9.54px;
+    color: #FFFFFF;
+    display: flex;
+    margin: 0 0 8px;
+}
+
+.cups{
+    width: 100%;
+}
+
+.cups img{
+    width: 212px;
+    height: 245px;
+    display: block;
+    border-radius: 25px;
+}
+
+.description{
+    font-family: 'Raleway',sans-serif;
+    font-size: 8.35px;
+    color: #FFFFFF;
+    line-height: 1.5;
+    margin: 0 0 12px;
+}
+
+.milk{
+    font-family: 'Rosarivo', sans-serif;
+    font-size: 8.35px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    }
+
+.milk-options button{
+    color: #EFE3C8;
+    font-family: 'Rosarivo', sans-serif;
+    font-size: 8.35px;
+    background-color: transparent;
+    border: 0.6px solid #FFFFFF;
+    border-radius: 5.96px;
+    padding: 4.77px 11.93px;
+    cursor: pointer;
+}
+.milk-options button:hover{
+    background-color: #EFE3C8;
+    color: #201520;
+}
+.milk-options{
+    display: flex;
+    gap: 5.96px;
+}
+
+.price{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14.31px;
+    color: #FFFFFF;
+}   
+
+.buy button{
+    font-family: 'Raleway', sans-serif;
+    font-size: 9.54px;
+    color: #4A2B29;
+    background-color: #EFE3C8;
+    border: none;
+    border-radius: 5.96px;
+    padding: 8.95px 29.82px;
+    width: 150.9px;
+    cursor: pointer;
+}
+
+.buy button:hover{
+    background-color:#efe3c8de ;
+    color: #4A2B29;
+}
+
+.buy .description {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+.buy{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5.96px;
+    
+}
+
+#heart{
+    width: 16.1px;
+    height: 14.31px;
+    margin-left:0;
+}
+
+#star{
+    width: 19.09px;
+    height: 10.14px;
+    margin-left: 14px;
+}
