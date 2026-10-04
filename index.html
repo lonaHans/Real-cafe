@@ -6,41 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Cafe</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rosario:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <div class="container">
         <div class="cups">
-            <img src="cups.png">
+            <img src="cups.png" alt="Cappuccino">
+            <button class="back-button"><-</button>
         </div>
         <div class="name">
-            <h1>Cappuccino <img src="Vector.png" id="heart"></h1>
-            <h3>Drizzled with Caramel <img src="Group 111.png" id="star"></h3>
-            <p class="description">A single espresso shot poured into hot foamy milk, with the surface topped with
-                mildly sweetened cocoa powder and drizzled with scrumptious caramel syrup.</p>
+            <h1>
+                Cappuccino
+                <img src="heart.png" id="heart" alt="Favorite">
+            </h1>
+            <h3>
+                Drizzled with Caramel
+                <span class="rating">
+                    <img src="star.png" id="star" alt="Star">
+                    4.5
+                </span>
+            </h3>
+            <p class="description">
+                A single espresso shot poured into hot foamy milk,
+                with the surface topped with mildly sweetened cocoa
+                powder and drizzled with scrumptious caramel syrup.
+            </p>
         </div>
-        <div>
-
-            <div class="milk">
-                <p>Choice of Milk</p>
-                <div class="milk-options">
-                    <button>Oat Milk</button>
-                    <button>Soy Milk</button>
-                    <button>Almond Milk</button>
-                </div>
-
-            </div>
-
-
-            <div class="buy">
-                <p class="description">Price
-                 <span class="price">₹249</span>
-                </p>
-                <button>BUY NOW</button>
+        <div class="milk">
+            <p>Choice of Milk</p>
+            <div class="milk-options">
+                <button>Oat Milk</button>
+                <button>Soy Milk</button>
+                <button>Almond Milk</button>
             </div>
         </div>
-
+        <div class="buy">
+            <p class="price">
+                <span>Price</span>
+                <strong>₹249</strong>
+            </p>
+            <button class="buy-button">
+                <strong>BUY NOW</strong>
+            </button>
+        </div>
+    </div>
 </body>
-
 </html>
